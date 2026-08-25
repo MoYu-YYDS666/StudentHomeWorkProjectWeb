@@ -22,17 +22,17 @@ define('UPLOAD_PATH', __DIR__ . '/../uploads/');    // 原图保存目录（相�
 define('THUMB_PATH', __DIR__ . '/../thumbnails/');  // 缩略图保存目录（thumbnails/，目录需可写）
 
 /* ==================== Geetest4 滑动验证码 ==================== */
-define('GEETEST_ID', '1b2f5eddeba07fe492282c467b65b4cb');                 // Geetest4 验证码 ID（在极验后台获取）
-define('GEETEST_KEY', '56e19f1e4439ffb236499eedf45bf4ad');                // Geetest4 验证码 Key（在极验后台获取）
+define('GEETEST_ID', '');                 // Geetest4 验证码 ID（在极验后台获取）
+define('GEETEST_KEY', '');                // Geetest4 验证码 Key（在极验后台获取）
 
 /* ==================== SMTP 邮件配置（PHPMailer） ==================== */
-define('SMTP_HOST', 'smtp.qq.com');  // SMTP 服务器地址，如 smtp.qq.com / smtp.163.com
+define('SMTP_HOST', '');  // SMTP 服务器地址，如 smtp.qq.com / smtp.163.com
 define('SMTP_PORT', 587);                 // SMTP 端口：SSL 加密用 465，TLS 加密用 587
-define('SMTP_USERNAME', 'onelovewall@foxmail.com');              // SMTP 登录账号（通常为完整邮箱地址）
-define('SMTP_PASSWORD', 'qjcfbpqzkcaydcde');              // SMTP 登录密码或授权码（QQ/163 邮箱需使用授权码）
+define('SMTP_USERNAME', '');              // SMTP 登录账号（通常为完整邮箱地址）
+define('SMTP_PASSWORD', '');              // SMTP 登录密码或授权码（QQ/163 邮箱需使用授权码）
 define('SMTP_ENCRYPTION', 'tls');         // 加密方式：tls 或 ssl，与端口对应
-define('SMTP_FROM_EMAIL', 'onelovewall@foxmail.com');            // 发件人邮箱地址
-define('SMTP_FROM_NAME', '初高学生作业统计Project'); // 发件人显示名称
+define('SMTP_FROM_EMAIL', '');            // 发件人邮箱地址
+define('SMTP_FROM_NAME', ''); // 发件人显示名称
 
 /* ==================== 会话（Session）配置 ==================== */
 define('SESSION_NAME', 'HOMEWORK_GALLERY_SESSION'); // Session Cookie 名称
